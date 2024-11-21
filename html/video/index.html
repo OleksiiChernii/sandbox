@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Video</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="video__container">
+        <video id="player" src="./HTML 5 Video.mp4"></video>
+        <div class="controls__container">
+          <button id="play" class="play__button">Play</button>
+          <input type="range" name="volume" id="volume" min="0" max="100" />
+          <div class="duration__container"><span class="current__time">0</span>/<span class="full__time">0</span></div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
